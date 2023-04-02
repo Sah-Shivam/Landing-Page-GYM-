@@ -1,0 +1,102 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('/image/Gympixx.jpg');
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* height: 1000px; */
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 53px;
+    top: 11px;
+    /* border: 2px solid blue; */
+}
+
+.mid {
+    color: red;
+    display: block;
+    width: 40%;
+    margin: 22px auto;
+    /* border: 2px solid yellow; */
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid rgb(19, 252, 31) */
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.navbar li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(49, 204, 204);
+}
+
+img {
+    width: 100px;
+}
+
+.left div {
+    color: rgb(3, 1, 19);
+    font-size: 15px;
+    text-align: center;
+    background-color: white;
+}
+
+.btn {
+    margin: 0px 9px;
+    padding: 5px 14px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(22, 204, 218);
+}
+
+.container {
+    border: 5px solid black;
+    margin: 119px 358px;
+    padding: 29px;
+    width: 41%;
+    border-radius: 28px;
+}
+.container h1{
+    color: darkorange;
+    text-align: center;
+
+}
+.formgroup input{
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 2px;
+    font-size: 20px;
+    border-radius: 20px ;
+    margin: 15px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container button{
+    display: block;
+    width: 72%;
+    margin: 18px auto;
+}
